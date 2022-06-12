@@ -1,3 +1,34 @@
-body{
-    background-color: #ffd7c6;
+body {
+    background-color: #cfe9f4;
+    opacity: 120%;
+}
+
+.im {
+    border-radius: 48%;
+    width: 8%;
+    height: 80px;
+    background: none;
+    margin-bottom: 15px;
+}
+
+.bb {
+    position: relative;
+    text-decoration: none;
+    transition: 0.9s;
+}
+
+.bb:hover {
+    border-bottom: 2px solid rgb(17, 56, 255);
+}
+
+.bb:after {
+    position: absolute;
+    content: ">";
+    color: rgb(3, 34, 191);
+    opacity: 0;
+    transition: 0.8s;
+}
+
+.bb:hover:after {
+    opacity: 1;
 }
